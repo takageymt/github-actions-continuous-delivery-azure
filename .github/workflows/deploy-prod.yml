@@ -42,7 +42,7 @@ jobs:
       - name: Download built artifact
         uses: actions/download-artifact@main
         with:
-          name: webpack artifact
+          name: webpack artifacts
           path: public
 
       - name: create image and store in Packages
